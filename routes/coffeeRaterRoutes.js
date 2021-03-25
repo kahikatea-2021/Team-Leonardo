@@ -3,6 +3,8 @@ const router = express.Router()
 const fs = require('fs')
 const path = require('path')
 
+const { getCoffeeData } = require("./utils");
+
 router.get('/', (req, res) => {
     res.send('Hi from list')
 })
