@@ -1,0 +1,29 @@
+<div>
+      <h1>Coffee Review</h1>
+      <a href="/">Home</a>
+      <div>
+        <img src={{image}} alt="">
+        <h2>{{name}}</h2>
+        <h3>{{rating}}</h3>
+        <h3>Address: {{address}}</h3>
+        <h3>Description: {{description}}</h3>
+        <h3>Comments:</h3>
+
+        <h3>Leave a comment:</h3>
+        <form action="" method="post">
+        <label for="name">
+          Name:
+          <input type="text" name="name">
+        </label>
+        
+        <label for="comment">
+          Comment:
+          <input type="text" name="comment">
+        </label>
+        
+        <input type="hidden" name="image" value={{image}}>
+        
+        <input type="submit" name="" value="Submit">
+      </form>
+      </div>
+    </div>
