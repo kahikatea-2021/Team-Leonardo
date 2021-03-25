@@ -1,0 +1,49 @@
+{
+    "CoffeeShops": [
+      {
+        "id": 1,
+        "name": "name here",
+        "image": "/image/CoffeeShop1",
+        "address": "123 here street, there road",
+        "description": "Nice cafe, cool toilets",
+        "rating": "null",
+        "comments": ["hi there"]
+      },
+      {
+        "id": 2,
+        "name": "name here",
+        "image": "/image/CoffeeShop2",
+        "address": "345 near street, where road",
+        "description": "Nice cafe, cool beans",
+        "rating": "null",
+        "comments": ["hey there"]  
+      },
+      {
+        "id": 3,
+        "name": "name here",
+        "image": "/image/CoffeeShop3",
+        "address": "567 pear street, apple road",
+        "description": "Nice cafe, cool witch",
+        "rating": "null",
+        "comments": ["whoa there"] 
+      },
+      {
+        "id": 4,
+        "name": "name here",
+        "image": "/image/CoffeeShop4",
+        "address": "789 street street, road road",
+        "description": "Nice cafe, cool crate",
+        "rating": "null",
+        "comments": ["move there"]   
+      },
+      {
+        "id": 5,
+        "name": "name here",
+        "image": "/image/CoffeeShop5",
+        "address": "910 lol street, lmao road",
+        "description": "Nice cafe, cool fool",
+        "rating": "null",
+        "comments": ["drove there"] 
+      }
+    ]
+  }
