@@ -3,47 +3,47 @@
       {
         "id": 1,
         "name": "The Kind Project",
-        "image": "/public/images/coffee1.jpg",
+        "image": "images/coffee1.jpg",
         "address": "2 Morgan Street, Newmarket, Auckland 1023",
         "description": "We’re on a mission to make the world a little kinder.",
-        "rating": ["public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png"],
-        "comments": ["very nice", "kind as", "so great"]
+        "rating": "5/5",
+        "comments": ["Very nice ", "Kind as ", "So great "]
       },
       {
         "id": 2,
         "name": "Gilli Café",
-        "image": "/public/images/coffee3.jpg",
+        "image": "images/coffee2.jpg",
         "address": "3b/123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Come see us for the best coffee and food with our friendly staff on hand!",
-        "rating": ["public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBeanLight.png"],
-        "comments": ["fast and efficient", "in and out like a breeze", "would recommend 10/10"]  
+        "rating": "4/5",
+        "comments": ["Fast and efficient ", "In and out like a breeze ", "Would recommend 10/10 "]  
       },
       {
         "id": 3,
         "name": "Carlton Gore Cafe",
-        "image": "/public/images/coffee4.jpg",
+        "image": "images/coffee3.jpg",
         "address": "143 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Cosmopolitan counter-serve hub with a bright, airy feel serving coffee, upscale light fare & wine.",
-        "rating": ["public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBeanLight.png", "public/images/coffeeBeanLight.png"],
-        "comments": ["Positive", "Coffee was cold. Food was average", " I’m a sucker for chai lattes and they’ve got me sorted here 😝😍."] 
+        "rating": "3.5/5",
+        "comments": ["Positive ", "Coffee was cold. Food was average ", "I’m a sucker for chai lattes and they’ve got me sorted here 😝😍. "] 
       },
       {
         "id": 4,
         "name": "New Century Cafe",
-        "image": "/public/images/coffee7.jpg",
+        "image": "images/coffee4.jpg",
         "address": "123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Hey I'm a cafe 😎",
-        "rating": ["public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBeanLight.png", "public/images/coffeeBeanLight.png"],
-        "comments": ["Love this place", "Very nice sausages", "Recommend if you don't want higher priced food"]   
+        "rating": "3/5",
+        "comments": ["Love this place ", "Very nice sausages ", "Recommend if you don't want higher priced food "]   
       },
       {
         "id": 5,
         "name": "Sip Kitchen",
-        "image": "/public/images/coffee8.jpg",
+        "image": "images/coffee5.jpg",
         "address": "12A Melrose Street, Newmarket, Auckland 1023",
         "description": "Sip Kitchen is a whole-food eatery & creator of delicious, nutrient-dense food and beverages.",
-        "rating": ["public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBean.png", "public/images/coffeeBeanLight.png"],
-        "comments": ["Awesome selection of healthy goodness", "As a vegetarian this place is a diamond in the rough with 95% of the food on offer either vegan or vegetarian.", "Greenie in a Bottle is must-have if you're a green juice fan"] 
+        "rating": "4.5/5",
+        "comments": ["Awesome selection of healthy goodness ", "As a vegetarian this place is a diamond in the rough with 95% of the food on offer either vegan or vegetarian. ", "Greenie in a Bottle is must-have if you're a green juice fan! "] 
       }
     ]
   }
