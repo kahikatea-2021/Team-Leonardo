@@ -23,7 +23,24 @@ router.get('/', (req, res) => {
 })
 
 router.get('/coffeeshop/:id', (req, res) => {
-    res.send('Hi from coffeeshop number ' + req.params.id)
+    getCoffeeData((err, coffeeData) => {
+        if (err) {
+            res.status(500).send(err.message);
+            return;
+        }
+        const coffee = coffeeData.CoffeeShops.find((element) => element.id === Number(req.params.id));
+        const viewData = {
+            name: coffee.name,
+            image: coffee.image,
+            address: coffee.address,
+            description: coffee.description,
+            rating: coffee.rating,
+            comments: coffee.comments
+        }
+        console.log(viewData)
+        const template = "coffeeShop";
+        // res.render(template, viewData)
+    })
 })
 
 router.post('/cofeeshop/:id/comment', (req, res) => {
