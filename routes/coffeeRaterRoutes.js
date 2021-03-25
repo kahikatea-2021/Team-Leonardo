@@ -35,13 +35,12 @@ router.get('/coffeeshop/:id', (req, res) => {
       rating: coffee.rating,
       comments: coffee.comments
     }
-    console.log(viewData)
-    const template = 'coffeeShop'
-    // res.render(template, viewData)
+    const template = './layouts/coffeeShop'
+    res.render(template, viewData)
   })
 })
 
-router.post('/cofeeshop/:id/comment', (req, res) => {
+router.post('/coffeeshop/:id/comment', (req, res) => {
 
 })
 
