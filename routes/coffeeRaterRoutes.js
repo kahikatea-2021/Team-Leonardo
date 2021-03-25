@@ -3,8 +3,23 @@ const router = express.Router()
 const fs = require('fs')
 const path = require('path')
 
+const { getCoffeeData } = require("../utils");
+
 router.get('/', (req, res) => {
-    res.send('Hi from list')
+    getCoffeeData((err, coffeeData) => {
+        if (err) {
+            res.status(500).send(err.message);
+            return;
+        }
+        console.log(coffeeData)
+        const viewData = {
+            title: "coffee",
+            coffeeShops: coffeeData.CoffeeShops
+        };
+        const template = "home";
+        res.render(template, viewData)
+    })
+
 })
 
 router.get('/coffeeshop/:id', (req, res) => {
