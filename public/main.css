@@ -5,8 +5,10 @@
 	margin-bottom: 5%;
 }
 .logo {
+	margin: 30px 0px 0px 0px;
 	width: 15rem;
 	height: auto;
+	border-radius: 50%;
 }
 h3 {
 	color: #49281A;
