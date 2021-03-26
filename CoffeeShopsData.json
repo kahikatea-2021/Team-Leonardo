@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "The Kind Project",
-        "image": "images/coffee1.jpg",
+        "image": "/images/coffee1.jpg",
         "address": "2 Morgan Street, Newmarket, Auckland 1023",
         "description": "We’re on a mission to make the world a little kinder.",
         "rating": "5/5",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "name": "Gilli Café",
-        "image": "images/coffee2.jpg",
+        "image": "/images/coffee2.jpg",
         "address": "3b/123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Come see us for the best coffee and food with our friendly staff on hand!",
         "rating": "4/5",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "name": "Carlton Gore Cafe",
-        "image": "images/coffee3.jpg",
+        "image": "/images/coffee3.jpg",
         "address": "143 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Cosmopolitan counter-serve hub with a bright, airy feel serving coffee, upscale light fare & wine.",
         "rating": "3.5/5",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "name": "New Century Cafe",
-        "image": "images/coffee4.jpg",
+        "image": "/images/coffee4.jpg",
         "address": "123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Hey I'm a cafe 😎",
         "rating": "3/5",
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "name": "Sip Kitchen",
-        "image": "images/coffee5.jpg",
+        "image": "/images/coffee5.jpg",
         "address": "12A Melrose Street, Newmarket, Auckland 1023",
         "description": "Sip Kitchen is a whole-food eatery & creator of delicious, nutrient-dense food and beverages.",
         "rating": "4.5/5",
