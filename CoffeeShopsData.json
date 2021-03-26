@@ -6,7 +6,7 @@
 			"image": "/images/coffee1.jpg",
 			"address": "2 Morgan Street, Newmarket, Auckland 1023",
 			"description": "We’re on a mission to make the world a little kinder.",
-			"rating": "5/5",
+			"rating": "Rating: 5/5",
 			"comments": [
 				"Very nice",
 				" kind as",
@@ -20,7 +20,7 @@
 			"image": "/images/coffee2.jpg",
 			"address": "3b/123 Carlton Gore Road, Newmarket, Auckland 1023",
 			"description": "Come see us for the best coffee and food with our friendly staff on hand!",
-			"rating": "4/5",
+			"rating": "Rating: 4/5",
 			"comments": [
 				"Fast and efficient ",
 				" in and out like a breeze",
@@ -33,7 +33,7 @@
 			"image": "/images/coffee3.jpg",
 			"address": "143 Carlton Gore Road, Newmarket, Auckland 1023",
 			"description": "Cosmopolitan counter-serve hub with a bright, airy feel serving coffee, upscale light fare & wine.",
-			"rating": "3.5/5",
+			"rating": "Rating: 3.5/5",
 			"comments": [
 				"Positive ",
 				" Coffee was cold. Food was average",
@@ -46,7 +46,7 @@
 			"image": "/images/coffee4.jpg",
 			"address": "123 Carlton Gore Road, Newmarket, Auckland 1023",
 			"description": "Hey I'm a cafe 😎",
-			"rating": "3/5",
+			"rating": "Rating: 3/5",
 			"comments": [
 				"Love this place ",
 				" very nice sausages",
@@ -59,7 +59,7 @@
 			"image": "/images/coffee5.jpg",
 			"address": "12A Melrose Street, Newmarket, Auckland 1023",
 			"description": "Sip Kitchen is a whole-food eatery & creator of delicious, nutrient-dense food and beverages.",
-			"rating": "4.5/5",
+			"rating": "Rating: 4.5/5",
 			"comments": [
 				"Awesome selection of healthy goodness ",
 				" as a vegetarian this place is a diamond in the rough with 95% of the food on offer either vegan or vegetarian.",
