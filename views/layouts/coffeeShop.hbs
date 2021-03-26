@@ -1,7 +1,4 @@
 <div>
-	<h1>Coffee Review</h1>
-	<a href="/">Home</a>
-	<div>
 		<img class="coffee-img" src={{image}} alt={{name}} />
 		<h2>{{name}}</h2>	
 		<h3>{{rating}}</h3>
@@ -11,14 +8,12 @@
 
 
 		<h3>Leave a comment:</h3>
-		<form action="/coffeeshop/:id/comment" method="post">
+		<form action="/coffeeshop/{{id}}/comment" method="post">
 
 			<label for="comment">
 				Comment:
 				<input type="text" name="comment">
 			</label>
-
 			<input type="submit" name="" value="Submit">
 		</form>
-	</div>
 </div>
