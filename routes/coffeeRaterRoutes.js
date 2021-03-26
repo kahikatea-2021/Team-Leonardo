@@ -28,6 +28,7 @@ router.get('/coffeeshop/:id', (req, res) => {
     }
     const coffee = coffeeData.CoffeeShops.find((element) => element.id === Number(req.params.id))
     const viewData = {
+      id: coffee.id,
       name: coffee.name,
       image: coffee.image,
       address: coffee.address,
@@ -41,7 +42,7 @@ router.get('/coffeeshop/:id', (req, res) => {
 })
 
 router.post('/coffeeshop/:id/comment', (req, res) => {
-
+  console.log(Number(req.params.id))
 })
 
 module.exports = router
