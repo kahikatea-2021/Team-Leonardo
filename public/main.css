@@ -1,6 +1,8 @@
 .coffee-img {
 	width: 30rem;
 	height: auto;
+	margin-top: 8%;
+	margin-bottom: 5%;
 }
 .logo {
 	width: 15rem;
@@ -8,7 +10,22 @@
 }
 h3 {
 	color: #49281A;
+	font-size: x-large;
 }
 p {
 	font-size: x-large;
+	
 }
+h2 {
+	color: #49281A;
+	font-size: x-large;
+}
+
+h1 {
+	color: #49281A;
+	font-size: xx-large;
+}
+body {
+	background-color: #DFB78C;
+	text-align: center;
+  }
