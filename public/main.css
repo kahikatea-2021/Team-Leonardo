@@ -4,9 +4,15 @@
 	margin-top: 8%;
 	margin-bottom: 5%;
 }
+.img2 {
+	width: 30rem;
+	height: auto;
+	margin-left: 40%;
+}
 .logo {
 	width: 15rem;
 	height: auto;
+	border-radius: 50%;
 }
 h3 {
 	color: #49281A;
@@ -24,6 +30,7 @@ h2 {
 	font-size: x-large;
 	margin-bottom: 2%;
 	display: inline-block;
+	
 }
 
 h1 {
