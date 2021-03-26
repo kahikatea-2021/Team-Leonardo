@@ -7,7 +7,7 @@
         "address": "2 Morgan Street, Newmarket, Auckland 1023",
         "description": "We’re on a mission to make the world a little kinder.",
         "rating": "5/5",
-        "comments": ["Very nice ", " Kind as ", " So great "]
+        "comments": ["Very nice ", "kind as ", "so great "]
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "address": "3b/123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Come see us for the best coffee and food with our friendly staff on hand!",
         "rating": "4/5",
-        "comments": ["Fast and efficient ", "In and out like a breeze ", "Would recommend 10/10 "]  
+        "comments": ["Fast and efficient ", "in and out like a breeze ", "would recommend 10/10 "]  
       },
       {
         "id": 3,
@@ -34,7 +34,7 @@
         "address": "123 Carlton Gore Road, Newmarket, Auckland 1023",
         "description": "Hey I'm a cafe 😎",
         "rating": "3/5",
-        "comments": ["Love this place ", "Very nice sausages ", "Recommend if you don't want higher priced food "]   
+        "comments": ["Love this place ", "very nice sausages ", "recommend if you don't want higher priced food "]   
       },
       {
         "id": 5,
@@ -43,7 +43,7 @@
         "address": "12A Melrose Street, Newmarket, Auckland 1023",
         "description": "Sip Kitchen is a whole-food eatery & creator of delicious, nutrient-dense food and beverages.",
         "rating": "4.5/5",
-        "comments": ["Awesome selection of healthy goodness ", "As a vegetarian this place is a diamond in the rough with 95% of the food on offer either vegan or vegetarian. ", "Greenie in a Bottle is must-have if you're a green juice fan! "] 
+        "comments": ["Awesome selection of healthy goodness ", "as a vegetarian this place is a diamond in the rough with 95% of the food on offer either vegan or vegetarian. ", "Greenie in a Bottle is must-have if you're a green juice fan! "] 
       }
     ]
   }
