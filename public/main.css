@@ -14,11 +14,16 @@ h3 {
 }
 p {
 	font-size: x-large;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 3%;
 	
 }
 h2 {
 	color: #49281A;
 	font-size: x-large;
+	margin-bottom: 2%;
+	display: inline-block;
 }
 
 h1 {
@@ -29,3 +34,4 @@ body {
 	background-color: #DFB78C;
 	text-align: center;
   }
+  
