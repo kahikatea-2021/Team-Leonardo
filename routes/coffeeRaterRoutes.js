@@ -42,7 +42,31 @@ router.get('/coffeeshop/:id', (req, res) => {
 })
 
 router.post('/coffeeshop/:id/comment', (req, res) => {
-  console.log(Number(req.params.id))
+  const coffeeShopId = Number(req.params.id)
+  const commentToAdd = ' ' + req.body.comment
+
+  getCoffeeData((err, coffeeData) => {
+    const filename = path.join(__dirname, '../CoffeeShopsData.json')
+
+    if (err) {
+      console.log(err.message)
+      res.status(500).send(err.message)
+      return
+    }
+
+    const index = coffeeData.CoffeeShops.findIndex(coffeeShop => coffeeShop.id === coffeeShopId)
+    const coffeeShopComments = coffeeData.CoffeeShops[index].comments
+    coffeeShopComments.push(commentToAdd)
+
+    fs.writeFile(filename, JSON.stringify(coffeeData), (err) => {
+      if (err) {
+        console.log(err)
+        res.status(500)
+      } else {
+        res.redirect(`/coffeeshop/${coffeeShopId}`)
+      }
+    })
+  })
 })
 
 module.exports = router
